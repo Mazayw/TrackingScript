@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://sborka.ua/?id=80
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sborka.ua
+// @downloadURL  https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js?token=GHSAT0AAAAAABTFORFDZYVYA4JLKXJ7CNHQYUDVAQA
+// @updateURL    https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js?token=GHSAT0AAAAAABTFORFDZYVYA4JLKXJ7CNHQYUDVAQA
 // @grant        none
 // ==/UserScript==
 
