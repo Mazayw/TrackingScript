@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tracking Script for Sborka
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @author       Mazayw
 // @match        https://sborka.ua/?id=80*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sborka.ua
@@ -50,6 +50,9 @@
           );
           elem.innerText += `\n Залишилось ${daySave} днів`;
           if (daySave < 4) elem.style.color = 'red';
+        }
+        if (data.data[0].ExpressWaybillAmountToPay > 0) {
+          elem.innerText += `\n До оплати ${data.data[0].ExpressWaybillAmountToPay} грн`;
         }
       });
   }
