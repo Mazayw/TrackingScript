@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Tracking Script for Sborka
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @author       Mazayw
 // @match        https://sborka.ua/?id=80*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sborka.ua
-// @downloadURL  https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js?token=GHSAT0AAAAAABTFORFDZYVYA4JLKXJ7CNHQYUDVAQA
-// @updateURL    https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js?token=GHSAT0AAAAAABTFORFDZYVYA4JLKXJ7CNHQYUDVAQA
+// @downloadURL  https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js
+// @updateURL    https://raw.githubusercontent.com/Mazayw/TrackingScript/master/index.js
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
